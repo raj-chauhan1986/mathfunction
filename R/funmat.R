@@ -3,8 +3,8 @@
 #' @param x numeric
 mf <- function(x){
   data.frame(
-    sqrt(x)
-    exp(x)
-    log(x)
-    log10(x))
+    sqrt1 = sqrt(x)
+    exponential =exp(x)
+    logrithm = log(x)
+    baselog = log10(x))
 }
